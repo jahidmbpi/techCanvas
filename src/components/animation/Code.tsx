@@ -38,7 +38,7 @@ export default function CodeTypingAnimation() {
   const lines = displayedCode.split("\n");
 
   return (
-    <div className="absolute top-40 left-10 z-50 font-mono pointer-events-none select-none max-w-[29rem] w-full">
+    <div className="absolute top-40 left-10 z-50 font-mono pointer-events-none select-none max-w-[24rem] w-full">
       <div className="bg-[#1e1e1e] dark:bg-[#302828] border border-gray-700 rounded-lg shadow-2xl overflow-hidden">
         {/* Fake title bar */}
         <div className="bg-[#2d2d2d] h-8 flex items-center px-3 space-x-2">
