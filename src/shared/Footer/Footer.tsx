@@ -13,7 +13,7 @@ const Footer = () => {
             className="text-[#1abc9c]  font-semibold"
             to="https://joydas.vercel.app"
           >
-            JoyDas
+            Jahid
           </Link>{" "}
           @2024
         </div>
