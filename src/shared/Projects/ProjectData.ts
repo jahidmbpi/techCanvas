@@ -10,9 +10,9 @@ export const projectsData = [
     description:
       "A modern Parcel Delivery system where senders can easily send parcels, receivers can track delivery status in real time, and admins can manage and control the entire delivery process efficiently.",
     projectVideo: stayImage,
-    preview: "https://staymanager404.vercel.app",
-    source: "https://github.com/Anirbandasjoy/StayManager-Client125",
-    path: "/stay-manager",
+    preview: "https://percel-delevery-client.vercel.app",
+    source: "https://github.com/jahidmbpi/percel-delevery-client",
+    path: "/percel-delivery",
     technologs: [
       {
         id: 1,

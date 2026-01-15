@@ -7,7 +7,8 @@ import Portfolio from "../pages/Portfolio/Portfolio";
 import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
 import ProjectsFoure from "../shared/Projects/ProjectDetails/ProjectsFoure";
-import StayManagerProject from "../shared/Projects/ProjectDetails/StayManager";
+
+import PercelDelivery from "../shared/Projects/ProjectDetails/PercelDelivery";
 
 export const router = createBrowserRouter([
   {
@@ -29,8 +30,8 @@ export const router = createBrowserRouter([
         element: <ProjectsFoure />,
       },
       {
-        path: "stay-manager",
-        element: <StayManagerProject />,
+        path: "percel-delivery",
+        element: <PercelDelivery />,
       },
       {
         path: "portfolio",

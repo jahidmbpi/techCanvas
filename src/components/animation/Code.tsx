@@ -3,10 +3,10 @@ import { useEffect, useState } from "react";
 const codeSnippets = [
   `// Developer Info
   const developer = {
-  name: "jahidul islam",
+  name: "Joy das",
   role: "Web Application Developer",
-  github username: "jahidmbpi",
-  linkedin username: "jahidul islam",
+  github username: "Anirbandasjoy",
+  linkedin username: "anirbandasjoy404",
   passion: "Solving web problems with ease"
 };`,
 ];
@@ -38,7 +38,7 @@ export default function CodeTypingAnimation() {
   const lines = displayedCode.split("\n");
 
   return (
-    <div className="absolute top-40 left-10 z-50 font-mono pointer-events-none select-none max-w-[24rem] w-full">
+    <div className="absolute top-40 left-10 z-50 font-mono pointer-events-none select-none max-w-[464px] w-full">
       <div className="bg-[#1e1e1e] dark:bg-[#302828] border border-gray-700 rounded-lg shadow-2xl overflow-hidden">
         {/* Fake title bar */}
         <div className="bg-[#2d2d2d] h-8 flex items-center px-3 space-x-2">
@@ -58,7 +58,7 @@ export default function CodeTypingAnimation() {
                     (line, idx) =>
                       `<div class="flex"><span class="text-gray-600 pr-4 select-none w-6 text-right">${
                         idx + 1
-                      }</span><span class="pre-wrap + break-words font-mono">${line
+                      }</span><span class="whitespace-pre font-mono">${line
                         .replace(
                           /(\/\/.*)/g,
                           '<span class="text-gray-500 italic">$1</span>'
