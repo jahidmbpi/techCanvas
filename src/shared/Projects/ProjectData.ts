@@ -52,7 +52,7 @@ export const projectsData = [
     projectVideo: image4,
     preview: "https://novanexus.vercel.app",
     source: "https://github.com/Anirbandasjoy/NovaNexus-Client",
-    path: "/novanexus",
+    path: "/local-guaid",
     technologs: [
       {
         id: 1,
