@@ -1,8 +1,6 @@
-// import image1 from "../../assets/images/9.png";
-// import image2 from "../../assets/images/2.png";
-import image3 from "../../assets/images/10.png";
-import image4 from "../../assets/images/13.png";
-import stayImage from "../../assets/images/stay.png";
+import image3 from "../../assets/images/p1.png";
+import image4 from "../../assets/images/l1.png";
+import stayImage from "../../assets/images/percel1.png";
 export const projectsData = [
   {
     id: 1,

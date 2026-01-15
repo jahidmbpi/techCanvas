@@ -86,16 +86,16 @@ body {
 
 @keyframes picthureChnage3 {
   0% {
-    background-image: url("./assets/images/11.png");
+    background-image: url("./assets/images/p1.png");
   }
   25% {
-    background-image: url("./assets/images/10.png");
+    background-image: url("./assets/images/p2.png");
   }
   50% {
-    background-image: url("./assets/images/11.png");
+    background-image: url("./assets/images/p3.png");
   }
   75% {
-    background-image: url("./assets/images/10.png");
+    background-image: url("./assets/images/p10.png");
   }
   100% {
     background-image: url("./assets/images/thank.jpg");
@@ -114,16 +114,16 @@ body {
 
 @keyframes picthureChnage4 {
   0% {
-    background-image: url("./assets/images/13.png");
+    background-image: url("./assets/images/l1.png");
   }
   25% {
-    background-image: url("./assets/images/14.png");
+    background-image: url("./assets/images/l2.png");
   }
   50% {
-    background-image: url("./assets/images/15.png");
+    background-image: url("./assets/images/l4.png");
   }
   75% {
-    background-image: url("./assets/images/16.png");
+    background-image: url("./assets/images/l5.png");
   }
   100% {
     background-image: url("./assets/images/thank.jpg");
@@ -142,18 +142,18 @@ body {
 
 @keyframes picthureChnage5 {
   0% {
-    background-image: url("./assets/images/stay.png");
+    background-image: url("./assets/images/percel1.png");
   }
   25% {
-    background-image: url("./assets/images/stay1.png");
+    background-image: url("./assets/images/percel2.png");
   }
   50% {
-    background-image: url("./assets/images/stay3.png");
+    background-image: url("./assets/images/percel4.png");
   }
   75% {
-    background-image: url("./assets/images/stay4.png");
+    background-image: url("./assets/images/percel5.png");
   }
   100% {
-    background-image: url("./assets/images/stay5.png");
+    background-image: url("./assets/images/thank.jpg");
   }
 }

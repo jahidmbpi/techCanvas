@@ -10,7 +10,7 @@ const Banner = () => {
           <div className="text-center mt-4 space-y-3 w-full sm:w-5/6  sm:mt-0 sm:text-start">
             <div>
               <h1 className="text-2xl sm:text-4xl font-extrabold tracking-[.2rem] text-gray-800 dark:text-gray-300">
-                Jahidul Islma
+                Jahidul Islam
               </h1>
               <p className="text-[18px] mt-1  sm:mt-2 tracking-[1.2px] dark:text-gray-200 font-bold text-gray-700">
                 Web Application Developer
