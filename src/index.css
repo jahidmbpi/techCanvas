@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.custom-swal-title {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 5576px) {
+  .custom-swal-title {
+    font-size: 20px;
+  }
+}
+
+.projectCard1 {
+  animation-name: picthureChnage;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  animation-direction: alternate;
+}
+
+@keyframes picthureChnage {
+  0% {
+    background-image: url("./assets/images/4.png");
+  }
+  25% {
+    background-image: url("./assets/images/7.png");
+  }
+  50% {
+    background-image: url("./assets/images/8.png");
+  }
+  75% {
+    background-image: url("./assets/images/9.png");
+  }
+  100% {
+    background-image: url("./assets/images/thank.jpg");
+  }
+}
+
+.projectCard2 {
+  animation-name: picthureChnage2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+@keyframes picthureChnage2 {
+  0% {
+    background-image: url("./assets/images/1.png");
+  }
+  25% {
+    background-image: url("./assets/images/2.png");
+  }
+  50% {
+    background-image: url("./assets/images/3.png");
+  }
+  75% {
+    background-image: url("./assets/images/4.png");
+  }
+  100% {
+    background-image: url("./assets/images/thank.jpg");
+  }
+}
+
+.projectCard3 {
+  animation-name: picthureChnage3;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+@keyframes picthureChnage3 {
+  0% {
+    background-image: url("./assets/images/11.png");
+  }
+  25% {
+    background-image: url("./assets/images/10.png");
+  }
+  50% {
+    background-image: url("./assets/images/11.png");
+  }
+  75% {
+    background-image: url("./assets/images/10.png");
+  }
+  100% {
+    background-image: url("./assets/images/thank.jpg");
+  }
+}
+
+.projectCard4 {
+  animation-name: picthureChnage4;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+@keyframes picthureChnage4 {
+  0% {
+    background-image: url("./assets/images/13.png");
+  }
+  25% {
+    background-image: url("./assets/images/14.png");
+  }
+  50% {
+    background-image: url("./assets/images/15.png");
+  }
+  75% {
+    background-image: url("./assets/images/16.png");
+  }
+  100% {
+    background-image: url("./assets/images/thank.jpg");
+  }
+}
+
+.projectCard5 {
+  animation-name: picthureChnage5;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+@keyframes picthureChnage5 {
+  0% {
+    background-image: url("./assets/images/stay.png");
+  }
+  25% {
+    background-image: url("./assets/images/stay1.png");
+  }
+  50% {
+    background-image: url("./assets/images/stay3.png");
+  }
+  75% {
+    background-image: url("./assets/images/stay4.png");
+  }
+  100% {
+    background-image: url("./assets/images/stay5.png");
+  }
+}
