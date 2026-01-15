@@ -58,7 +58,7 @@ export default function CodeTypingAnimation() {
                     (line, idx) =>
                       `<div class="flex"><span class="text-gray-600 pr-4 select-none w-6 text-right">${
                         idx + 1
-                      }</span><span class="whitespace-pre font-mono">${line
+                      }</span><span class="pre-wrap + break-words font-mono">${line
                         .replace(
                           /(\/\/.*)/g,
                           '<span class="text-gray-500 italic">$1</span>'
