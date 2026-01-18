@@ -43,14 +43,12 @@ const Banner = () => {
 
         <div className="mt-8 flex justify-between items-center flex-col sm:flex-row gap-7 sm:gap-0">
           <div className="space-x-2  text-center sm:text-left">
-            <a
-              target="_blank"
-              href="https://asset.cloudinary.com/dompv4jfd/946639ecd3d237b1cbe4022c20779355"
-            >
-              <button className="bg-[#1abc9c] text-white font-bold  py-3 px-6 rounded-md text-xs sm:text-sm tracking-[1px] uppercase">
+            <a href="https://drive.google.com/uc?export=download&id=1jnzrdtn62nftrw5LzLwDl-2stCTzhDcX">
+              <button className="bg-[#1abc9c] text-white font-bold py-3 px-6 rounded-md text-xs sm:text-sm tracking-[1px] uppercase">
                 Download CV
               </button>
             </a>
+
             <Link to="https://github.com/jahidmbpi">
               <button className="bg-[#1abc9c] bg-transparent text-gray-700 border-gray-200 hover:bg-slate-600 hover:text-gray-300 duration-500 dark:text-gray-300 border font-bold py-3 px-6 rounded-md text-xs sm:text-sm tracking-[1px]">
                 Github
@@ -82,7 +80,6 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div></div>
     </div>
   );
 };
